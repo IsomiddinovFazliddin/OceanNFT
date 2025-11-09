@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --font-Spartan: "League Spartan", sans-serif;
+  --font-Orbitron: "Orbitron", sans-serif;
+  --font-Rajdgani: "Rajdhani", sans-serif;
+  --font-Aldrich: "Aldrich", sans-serif;
+  --color-mainColor: #ffffff;
+}
+
+@layer components {
+  .flex-still {
+    @apply flex justify-between items-center gap-5;
+  }
+  .btn {
+    @apply font-semibold leading-[100%] text-mainColor bg-linear-to-r from-[#FF56F6] via-[#B936EE] via-[#3BACE2] to-[#406AFF] drop-shadow-xl;
+  }
+  .btn-border {
+    @apply p-0.5 bg-linear-to-r from-[#3C79D4] to-[#FFA6FA];
+  }
+}
+
+@layer base {
+    p{
+        @apply font-Rajdgani font-normal text-[14px] leading-[23.22px] sm:leading-[44.22px] text-mainColor sm:text-[26.53px];
+    }
+    h1{
+        @apply font-Spartan font-semibold text-[42px] sm:leading-[137%] sm:text-[66.33px] text-mainColor;
+    }
+    h2{
+        @apply font-Orbitron font-bold text-[16px] sm:text-[26.53px] leading-[100%] text-mainColor;
+    }
+}

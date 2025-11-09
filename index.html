@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OceanNFT</title>
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="bg-[#200C3C]">
+      <nav>
+        <div class="container mx-auto flex-still py-5 px-5 sm:px-0">
+          <div class="logo">
+            <img src="./imgs/logo.png" alt="" />
+          </div>
+          <ul class="flex gap-10 hidden md:flex">
+            <li
+              class="font-Orbitron font-bold text-[19.9px] leading-[100%] text-[#FFFFFF99] cursor-pointer transition-all duration-500 ease-in-out hover:text-[#FF56F6]"
+            >
+              <a href=""></a>Market
+            </li>
+            <li
+              class="font-Orbitron font-bold text-[19.9px] leading-[100%] text-[#FFFFFF99] cursor-pointer transition-all duration-500 ease-in-out hover:text-[#FF56F6]"
+            >
+              <a href=""></a>Features
+            </li>
+            <li
+              class="font-Orbitron font-bold text-[19.9px] leading-[100%] text-[#FFFFFF99] cursor-pointer transition-all duration-500 ease-in-out hover:text-[#FF56F6]"
+            >
+              <a href=""></a>Community
+            </li>
+          </ul>
+          <div class="btns flex gap-5 items-center">
+            <div class="flex gap-5 items-center hidden sm:flex">
+              <i
+                class="text-mainColor text-[18px] cursor-pointer transition-all duration-500 hover:text-[#FF56F6] fa-solid fa-cart-shopping"
+              ></i>
+              <i
+                class="text-mainColor text-[18px] cursor-pointer transition-all duration-500 hover:text-[#FF56F6] fa-solid fa-user"
+              ></i>
+            </div>
+            <div class="hamburger md:hidden">
+              <i
+                class="text-mainColor text-[18px] cursor-pointer transition-all duration-500 hover:text-[#FF56F6] fa-solid fa-bars"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="hero">
+        <div
+          class="container mx-auto py-20 pb-45 px-5 sm:px-0 flex-still flex-col md:flex-row"
+        >
+          <div class="info md:w-[50%]">
+            <h1 class="mb-5">
+              Discover, collect, and sell
+              <span
+                class="bg-linear-to-r from-[#FF56F6] to-[#42A6E3] bg-clip-text text-transparent"
+                >Timeless</span
+              >
+              NFTs
+            </h1>
+            <p class="mb-5">
+              The world's first and largest digital marketplace for crypto
+              collectibles and non- fungible tokens (NFTs).
+            </p>
+            <div class="flex gap-5 items-center mb-8 flex-wrap">
+              <button
+                class="font-Orbitron p-[2px] bg-gradient-to-r from-purple-500 to-cyan-400 [clip-path:polygon(10%_0%,100%_0%,100%_70%,80%_100%,0_100%,0_15%)] cursor-pointer transition-all duration-500 hover:scale-98"
+              >
+                <span class="block btn py-3 px-10 drop-shadow-lg"
+                  >Explore <i class="fa-solid fa-arrow-right"></i
+                ></span>
+              </button>
+              <div class="">
+                <button
+                  class="py-3 px-5 overflow-hidden relative cursor-pointer after:content-[' '] after:absolute after:top-0 after:left-0 after:h-full after:w-0 after:bg-linear-to-r after:from-[#FF56F6] after:via-[#B936EE] after:via-[#3BACE2] after:to-[#406AFF] after:transition-all after:duration-500 after:z-0 hover:after:w-full"
+                >
+                  <span
+                    class="font-Orbitron font-bold text-[19.9px] leading-[100%] bg-linear-to-r from-[#42A6E3] to-[#FF56F6] bg-clip-text text-transparent relative z-10"
+                    >Create NFT's</span
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="flex items-center gap-5 flex-wrap">
+              <div>
+                <span
+                  class="font-Aldrich font-normal text-[40px] leading-[53.06px] tracking-[0.22px] text-mainColor"
+                  >35m+</span
+                >
+                <h6
+                  class="font-Aldrich font-normal tetx-[17.69px] leading-[22.11px] tracking-[0.22px] text-mainColor"
+                >
+                  Artwork
+                </h6>
+              </div>
+              <div class="w-0.5 h-13 bg-[#FFFFFF42]"></div>
+              <div>
+                <span
+                  class="font-Aldrich font-normal text-[40px] leading-[53.06px] tracking-[0.22px] text-mainColor"
+                  >35m+</span
+                >
+                <h6
+                  class="font-Aldrich font-normal tetx-[17.69px] leading-[22.11px] tracking-[0.22px] text-mainColor"
+                >
+                  Artwork
+                </h6>
+              </div>
+              <div class="w-0.5 h-13 bg-[#FFFFFF42]"></div>
+              <div>
+                <span
+                  class="font-Aldrich font-normal text-[40px] leading-[53.06px] tracking-[0.22px] text-mainColor"
+                  >35m+</span
+                >
+                <h6
+                  class="font-Aldrich font-normal tetx-[17.69px] leading-[22.11px] tracking-[0.22px] text-mainColor"
+                >
+                  Artwork
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="relative md:mr-20">
+            <img
+              class="[clip-path:polygon(15%_0%,100%_0%,100%_100%,0%_100%,0%_10%)]"
+              src="./imgs/heroImg.png"
+              alt=""
+            />
+            <div
+              class="[clip-path:polygon(15%_0%,100%_0%,100%_100%,0%_100%,0%_30%)] absolute border-[2.21px] border-[#FFFFFF47] w-full py-8 px-5 rounded-[8.53px] -bottom-25 md:-right-20 backdrop-blur-md bg-white/10"
+            >
+              <div class="flex-still mb-2">
+                <h4
+                  class="font-Rajdgani font-bold TEXT-[17.69px] leading-[35.37px] text-mainColor"
+                >
+                  3D Abstract Hand
+                </h4>
+                <h6
+                  class="font-Rajdgani font-semibold text-[11.05px] leading-[35.37px] text-mainColor"
+                >
+                  Auction Ends in
+                </h6>
+              </div>
+              <div class="flex-still">
+                <div class="flex gap-2 items-center">
+                  <img class="w-10 h-10" src="./imgs/heroIcon.png" alt="" />
+                  <h5
+                    class="font-Rajdgani font-semibold text-[15.48px] leading-[35.37px] text-mainColor cursor-pointer"
+                  >
+                    @jhonartist
+                  </h5>
+                  <img class="w-5 h-5" src="./imgs/heroIcon2.png" alt="" />
+                </div>
+                <div class="flex gap-5 text-center">
+                  <div>
+                    <span
+                      class="font-Rajdgani font-semibold text-[17.69px] leading-[35.37px] text-mainColor"
+                      >18</span
+                    >
+                    <h6
+                      class="font-Rajdgani font-semibold text-[11.05px] leading-[35.37px] text-mainColor"
+                    >
+                      Hours
+                    </h6>
+                  </div>
+                  <div>
+                    <span
+                      class="font-Rajdgani font-semibold text-[17.69px] leading-[35.37px] text-mainColor"
+                      >25</span
+                    >
+                    <h6
+                      class="font-Rajdgani font-semibold text-[11.05px] leading-[35.37px] text-mainColor"
+                    >
+                      Mins
+                    </h6>
+                  </div>
+                  <div>
+                    <span
+                      class="font-Rajdgani font-semibold text-[17.69px] leading-[35.37px] text-mainColor"
+                      >44</span
+                    >
+                    <h6
+                      class="font-Rajdgani font-semibold text-[11.05px] leading-[35.37px] text-mainColor"
+                    >
+                      Secs
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <h6
+                class="font-Rajdgani font-normal text-[11.05px] leading-[35.37px] text-mainColor"
+              >
+                Reserve price
+              </h6>
+              <div class="flex-still flex-wrap">
+                <div class="flex gap-2">
+                  <img src="./imgs/heroLogo.png" alt="" />
+                  <h6
+                    class="font-Rajdgani font-medium text-[11.05px] leading-[35.37px] text-mainColor"
+                  >
+                    ($29,8846)
+                  </h6>
+                </div>
+                <div
+                  class="relative p-0.5 rounded-[2.21px] bg-linear-to-r from-[#3C79D4] to-[#FFA6FA] transition-all duration-500 hover:scale-98"
+                >
+                  <button
+                    class="font-Rajdgani font-semibold text-[17.69px] leading-[100%] text-mainColor rounded-[2.21px] overflow-hidden bg-linear-to-r from-[#FF56F6] via-[#B936EE] via-[#3BACE2] to-[#406AFF] cursor-pointer"
+                  >
+                    <span class="block py-2.5 px-5"
+                      >Place Bid <i class="fa-solid fa-arrow-right"></i
+                    ></span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="now bg-[#200C3C]">
+        <div class="container mx-auto py-20 px-5 sm:px-0">
+          <div class="title flex-still mb-10">
+            <h2>Top NFT's now</h2>
+            <h2
+              class="cursor-pointer transition-all duration-500 hover:text-[#FF56F6]"
+            >
+              View all <i class="fa-solid fa-arrow-right"></i>
+            </h2>
+          </div>
+          <div
+            class="card grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5"
+          >
+            <div class="box">
+              <div class="group overflow-hidden">
+                <img
+                  class="w-full transition-all duration-500 ease-in-out group-hover:scale-105"
+                  src="./imgs/nowImg1.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="border-[2.21px] border-[#FFFFFF47] p-5 rounded-[2.88px] backdrop-blur-md bg-white/10"
+              >
+                <div class="flex-still mb-2">
+                  <h4
+                    class="font-Rajdgani font-bold TEXT-[17.69px] leading-[35.37px] text-mainColor"
+                  >
+                    Apollo Eth #1289 NFT
+                  </h4>
+                  <h6
+                    class="font-Rajdgani font-semibold text-[11.05px] leading-[35.37px] text-mainColor"
+                  >
+                    Auction Ends in
+                  </h6>
+                </div>
+                <div class="flex-still">
+                  <div class="flex gap-2 items-center">
+                    <img class="w-10 h-10" src="./imgs/heroIcon.png" alt="" />
+                    <h5
+                      class="font-Rajdgani font-semibold text-[15.48px] leading-[35.37px] text-mainColor cursor-pointer"
+                    >
+                      @jhonartist
+                    </h5>
+                    <img class="w-5 h-5" src="./imgs/heroIcon2.png" alt="" />
+                  </div>
+                  <div class="flex gap-5 text-center">
+                    <div>
+                      <span
+                        class="font-Rajdgani font-semibold text-[17.69px] leading-[35.37px] text-mainColor"
+                        >18</span
+                      >
+                      <h6
+                        class="font-Rajdgani font-semibold text-[11.05px] leading-[35.37px] text-mainColor"
+                      >
+                        Hours
+                      </h6>
+                    </div>
+                    <div>
+                      <span
+                        class="font-Rajdgani font-semibold text-[17.69px] leading-[35.37px] text-mainColor"
+                        >25</span
+                      >
+                      <h6
+                        class="font-Rajdgani font-semibold text-[11.05px] leading-[35.37px] text-mainColor"
+                      >
+                        Mins
+                      </h6>
+                    </div>
+                    <div>
+                      <span
+                        class="font-Rajdgani font-semibold text-[17.69px] leading-[35.37px] text-mainColor"
+                        >44</span
+                      >
+                      <h6
+                        class="font-Rajdgani font-semibold text-[11.05px] leading-[35.37px] text-mainColor"
+                      >
+                        Secs
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <h6
+                  class="font-Rajdgani font-normal text-[11.05px] leading-[35.37px] text-mainColor"
+                >
+                  Reserve price
+                </h6>
+                <div class="flex-still flex-wrap">
+                  <div class="flex gap-2">
+                    <img src="./imgs/heroLogo.png" alt="" />
+                    <h6
+                      class="font-Rajdgani font-medium text-[11.05px] leading-[35.37px] text-mainColor"
+                    >
+                      ($29,8846)
+                    </h6>
+                  </div>
+                  <div
+                    class="relative p-0.5 rounded-[2.21px] bg-linear-to-r from-[#3C79D4] to-[#FFA6FA] transition-all duration-500 hover:scale-98"
+                  >
+                    <button
+                      class="font-Rajdgani font-semibold text-[17.69px] leading-[100%] text-mainColor rounded-[2.21px] overflow-hidden bg-linear-to-r from-[#FF56F6] via-[#B936EE] via-[#3BACE2] to-[#406AFF] cursor-pointer shadow-lg shadow-[#FF56F682]"
+                    >
+                      <span class="block py-2.5 px-5"
+                        >Place Bid <i class="fa-solid fa-arrow-right"></i
+                      ></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="group overflow-hidden">
+                <img
+                  class="w-full transition-all duration-500 ease-in-out group-hover:scale-105"
+                  src="./imgs/nowImg2.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="border-[2.21px] border-[#FFFFFF47] p-5 rounded-[2.88px] backdrop-blur-md bg-white/10"
+              >
+                <div class="flex-still mb-2">
+                  <h4
+                    class="font-Rajdgani font-bold TEXT-[17.69px] leading-[35.37px] text-mainColor"
+                  >
+                    Sassy Bull #1169 Art
+                  </h4>
+                  <h6
+                    class="font-Rajdgani font-semibold text-[11.05px] leading-[35.37px] text-mainColor"
+                  >
+                    Auction Ends in
+                  </h6>
+                </div>
+                <div class="flex-still">
+                  <div class="flex gap-2 items-center">
+                    <img class="w-10 h-10" src="./imgs/heroIcon.png" alt="" />
+                    <h5
+                      class="font-Rajdgani font-semibold text-[15.48px] leading-[35.37px] text-mainColor cursor-pointer"
+                    >
+                      @jhonartist
+                    </h5>
+                    <img class="w-5 h-5" src="./imgs/heroIcon2.png" alt="" />
+                  </div>
+                  <div class="flex gap-5 text-center">
+                    <div>
+                      <span
+                        class="font-Rajdgani font-semibold text-[17.69px] leading-[35.37px] text-mainColor"
+                        >09</span
+                      >
+                      <h6
+                        class="font-Rajdgani font-semibold text-[11.05px] leading-[35.37px] text-mainColor"
+                      >
+                        Hours
+                      </h6>
+                    </div>
+                    <div>
+                      <span
+                        class="font-Rajdgani font-semibold text-[17.69px] leading-[35.37px] text-mainColor"
+                        >15</span
+                      >
+                      <h6
+                        class="font-Rajdgani font-semibold text-[11.05px] leading-[35.37px] text-mainColor"
+                      >
+                        Mins
+                      </h6>
+                    </div>
+                    <div>
+                      <span
+                        class="font-Rajdgani font-semibold text-[17.69px] leading-[35.37px] text-mainColor"
+                        >23</span
+                      >
+                      <h6
+                        class="font-Rajdgani font-semibold text-[11.05px] leading-[35.37px] text-mainColor"
+                      >
+                        Secs
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <h6
+                  class="font-Rajdgani font-normal text-[11.05px] leading-[35.37px] text-mainColor"
+                >
+                  Reserve price
+                </h6>
+                <div class="flex-still flex-wrap">
+                  <div class="flex gap-2">
+                    <img src="./imgs/heroLogo.png" alt="" />
+                    <h6
+                      class="font-Rajdgani font-medium text-[11.05px] leading-[35.37px] text-mainColor"
+                    >
+                      ($29,8846)
+                    </h6>
+                  </div>
+                  <div
+                    class="relative p-0.5 rounded-[2.21px] bg-linear-to-r from-[#3C79D4] to-[#FFA6FA] transition-all duration-500 hover:scale-98"
+                  >
+                    <button
+                      class="font-Rajdgani font-semibold text-[17.69px] leading-[100%] text-mainColor rounded-[2.21px] overflow-hidden bg-linear-to-r from-[#FF56F6] via-[#B936EE] via-[#3BACE2] to-[#406AFF] cursor-pointer shadow-lg shadow-[#FF56F682]"
+                    >
+                      <span class="block py-2.5 px-5"
+                        >Place Bid <i class="fa-solid fa-arrow-right"></i
+                      ></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="group overflow-hidden">
+                <img
+                  class="w-full transition-all duration-500 ease-in-out group-hover:scale-105"
+                  src="./imgs/nowImg3.png"
+                  alt=""
+                />
+              </div>
+              <div
+                class="border-[2.21px] border-[#FFFFFF47] p-5 rounded-[2.88px] backdrop-blur-md bg-white/10"
+              >
+                <div class="flex-still mb-2">
+                  <h4
+                    class="font-Rajdgani font-bold TEXT-[17.69px] leading-[35.37px] text-mainColor"
+                  >
+                    Satisfying 3D Art
+                  </h4>
+                  <h6
+                    class="font-Rajdgani font-semibold text-[11.05px] leading-[35.37px] text-mainColor"
+                  >
+                    Auction Ends in
+                  </h6>
+                </div>
+                <div class="flex-still">
+                  <div class="flex gap-2 items-center">
+                    <img class="w-10 h-10" src="./imgs/heroIcon.png" alt="" />
+                    <h5
+                      class="font-Rajdgani font-semibold text-[15.48px] leading-[35.37px] text-mainColor cursor-pointer"
+                    >
+                      @jhonartist
+                    </h5>
+                    <img class="w-5 h-5" src="./imgs/heroIcon2.png" alt="" />
+                  </div>
+                  <div class="flex gap-5 text-center">
+                    <div>
+                      <span
+                        class="font-Rajdgani font-semibold text-[17.69px] leading-[35.37px] text-mainColor"
+                        >23</span
+                      >
+                      <h6
+                        class="font-Rajdgani font-semibold text-[11.05px] leading-[35.37px] text-mainColor"
+                      >
+                        Hours
+                      </h6>
+                    </div>
+                    <div>
+                      <span
+                        class="font-Rajdgani font-semibold text-[17.69px] leading-[35.37px] text-mainColor"
+                        >32</span
+                      >
+                      <h6
+                        class="font-Rajdgani font-semibold text-[11.05px] leading-[35.37px] text-mainColor"
+                      >
+                        Mins
+                      </h6>
+                    </div>
+                    <div>
+                      <span
+                        class="font-Rajdgani font-semibold text-[17.69px] leading-[35.37px] text-mainColor"
+                        >56</span
+                      >
+                      <h6
+                        class="font-Rajdgani font-semibold text-[11.05px] leading-[35.37px] text-mainColor"
+                      >
+                        Secs
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+                <h6
+                  class="font-Rajdgani font-normal text-[11.05px] leading-[35.37px] text-mainColor"
+                >
+                  Reserve price
+                </h6>
+                <div class="flex-still flex-wrap">
+                  <div class="flex gap-2">
+                    <img src="./imgs/heroLogo.png" alt="" />
+                    <h6
+                      class="font-Rajdgani font-medium text-[11.05px] leading-[35.37px] text-mainColor"
+                    >
+                      ($29,8846)
+                    </h6>
+                  </div>
+                  <div
+                    class="relative p-0.5 rounded-[2.21px] bg-linear-to-r from-[#3C79D4] to-[#FFA6FA] transition-all duration-500 hover:scale-98"
+                  >
+                    <button
+                      class="font-Rajdgani font-semibold text-[17.69px] leading-[100%] text-mainColor rounded-[2.21px] overflow-hidden bg-linear-to-r from-[#FF56F6] via-[#B936EE] via-[#3BACE2] to-[#406AFF] cursor-pointer shadow-lg shadow-[#FF56F682]"
+                    >
+                      <span class="block py-2.5 px-5"
+                        >Place Bid <i class="fa-solid fa-arrow-right"></i
+                      ></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="collection bg-[#200C3C]">
+        <div
+          class="container mx-auto py-20 px-5 sm:px-0 flex-still flex-col md:flex-row"
+        >
+          <div class="info w-full md:w-[60%]">
+            <h2 class="mb-10">Explore Collections</h2>
+            <div class="card grid grid-cols-2 gap-10">
+              <div
+                class="border p-[2.88px] bg-linear-to-r from-[#3C79D4] to-[#FFA6FA] shadow-xl/20 shadow-[#FF56F682]"
+              >
+                <button
+                  class="flex justify-center p-5 sm:py-8 bg-[#200C3C] w-full cursor-pointer relative overflow-hidden after:content-[' '] after:absolute after:top-0 after:left-0 after:h-full after:w-0 after:bg-linear-to-r after:from-[#FF56F6] after:via-[#B936EE] after:via-[#3BACE2] after:to-[#406AFF] after:transition-all after:duration-500 after:ease-in-out hover:after:w-full after:z-1"
+                >
+                  <span
+                    class="font-Orbitron font-bold text-[10.99px] sm:text-[26.53px] leading-[100%] text-[#FFFFFF80] relative z-10"
+                    >Photography</span
+                  >
+                </button>
+              </div>
+              <div
+                class="border p-[2.88px] bg-linear-to-r from-[#3C79D4] to-[#FFA6FA] shadow-xl/20 shadow-[#FF56F682]"
+              >
+                <button
+                  class="flex justify-center p-5 sm:py-8 bg-[#200C3C] w-full cursor-pointer relative overflow-hidden after:content-[' '] after:absolute after:top-0 after:left-0 after:h-full after:w-0 after:bg-linear-to-r after:from-[#FF56F6] after:via-[#B936EE] after:via-[#3BACE2] after:to-[#406AFF] after:transition-all after:duration-500 after:ease-in-out hover:after:w-full after:z-1"
+                >
+                  <span
+                    class="font-Orbitron font-bold text-[10.99px] sm:text-[26.53px] leading-[100%] text-[#FFFFFF80] relative z-10"
+                    >Sports</span
+                  >
+                </button>
+              </div>
+              <div
+                class="border p-[2.88px] bg-linear-to-r from-[#3C79D4] to-[#FFA6FA] shadow-xl/20 shadow-[#FF56F682]"
+              >
+                <button
+                  class="flex justify-center p-5 sm:py-8 bg-[#200C3C] w-full cursor-pointer relative overflow-hidden after:content-[' '] after:absolute after:top-0 after:left-0 after:h-full after:w-0 after:bg-linear-to-r after:from-[#FF56F6] after:via-[#B936EE] after:via-[#3BACE2] after:to-[#406AFF] after:transition-all after:duration-500 after:ease-in-out hover:after:w-full after:z-1"
+                >
+                  <span
+                    class="font-Orbitron font-bold text-[10.99px] sm:text-[26.53px] leading-[100%] text-[#FFFFFF80] relative z-10"
+                    >Brands</span
+                  >
+                </button>
+              </div>
+              <div
+                class="border p-[2.88px] bg-linear-to-r from-[#3C79D4] to-[#FFA6FA] shadow-xl/20 shadow-[#FF56F682]"
+              >
+                <button
+                  class="flex justify-center p-5 sm:py-8 bg-[#200C3C] w-full cursor-pointer relative overflow-hidden after:content-[' '] after:absolute after:top-0 after:left-0 after:h-full after:w-0 after:bg-linear-to-r after:from-[#FF56F6] after:via-[#B936EE] after:via-[#3BACE2] after:to-[#406AFF] after:transition-all after:duration-500 after:ease-in-out hover:after:w-full after:z-1"
+                >
+                  <span
+                    class="font-Orbitron font-bold text-[10.99px] sm:text-[26.53px] leading-[100%] text-[#FFFFFF80] relative z-10"
+                    >Collectibles</span
+                  >
+                </button>
+              </div>
+              <div
+                class="border p-[2.88px] bg-linear-to-r from-[#3C79D4] to-[#FFA6FA] shadow-xl/20 shadow-[#FF56F682]"
+              >
+                <button
+                  class="flex justify-center p-5 sm:py-8 bg-[#200C3C] w-full cursor-pointer relative overflow-hidden after:content-[' '] after:absolute after:top-0 after:left-0 after:h-full after:w-0 after:bg-linear-to-r after:from-[#FF56F6] after:via-[#B936EE] after:via-[#3BACE2] after:to-[#406AFF] after:transition-all after:duration-500 after:ease-in-out hover:after:w-full after:z-1"
+                >
+                  <span
+                    class="font-Orbitron font-bold text-[10.99px] sm:text-[26.53px] leading-[100%] text-[#FFFFFF80] relative z-10"
+                    >Art</span
+                  >
+                </button>
+              </div>
+              <div
+                class="border p-[2.88px] bg-linear-to-r from-[#3C79D4] to-[#FFA6FA] shadow-xl/20 shadow-[#FF56F682]"
+              >
+                <button
+                  class="flex justify-center p-5 sm:py-8 bg-[#200C3C] w-full cursor-pointer relative overflow-hidden after:content-[' '] after:absolute after:top-0 after:left-0 after:h-full after:w-0 after:bg-linear-to-r after:from-[#FF56F6] after:via-[#B936EE] after:via-[#3BACE2] after:to-[#406AFF] after:transition-all after:duration-500 after:ease-in-out hover:after:w-full after:z-1"
+                >
+                  <span
+                    class="font-Orbitron font-bold text-[10.99px] sm:text-[26.53px] leading-[100%] text-[#FFFFFF80] relative z-10"
+                    >Utility</span
+                  >
+                </button>
+              </div>
+              <div
+                class="border p-[2.88px] bg-linear-to-r from-[#3C79D4] to-[#FFA6FA] shadow-xl/20 shadow-[#FF56F682]"
+              >
+                <button
+                  class="flex justify-center p-5 sm:py-8 bg-[#200C3C] w-full cursor-pointer relative overflow-hidden after:content-[' '] after:absolute after:top-0 after:left-0 after:h-full after:w-0 after:bg-linear-to-r after:from-[#FF56F6] after:via-[#B936EE] after:via-[#3BACE2] after:to-[#406AFF] after:transition-all after:duration-500 after:ease-in-out hover:after:w-full after:z-1"
+                >
+                  <span
+                    class="font-Orbitron font-bold text-[10.99px] sm:text-[26.53px] leading-[100%] text-[#FFFFFF80] relative z-10"
+                    >Brands</span
+                  >
+                </button>
+              </div>
+              <div
+                class="border p-[2.88px] bg-linear-to-r from-[#3C79D4] to-[#FFA6FA] shadow-xl/20 shadow-[#FF56F682]"
+              >
+                <button
+                  class="flex justify-center p-5 sm:py-8 bg-[#200C3C] w-full cursor-pointer relative overflow-hidden after:content-[' '] after:absolute after:top-0 after:left-0 after:h-full after:w-0 after:bg-linear-to-r after:from-[#FF56F6] after:via-[#B936EE] after:via-[#3BACE2] after:to-[#406AFF] after:transition-all after:duration-500 after:ease-in-out hover:after:w-full after:z-1"
+                >
+                  <span
+                    class="font-Orbitron font-bold text-[10.99px] sm:text-[26.53px] leading-[100%] text-[#FFFFFF80] relative z-10"
+                    >Collectibles</span
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="col mt-10">
+              <h3
+                class="font-Orbitron font-bold text-[12px] sm:text-[19.9px] leading-[100%] text-mainColor cursor-pointer transition-all duration-500 hover:text-[#FF56F6] text-end"
+              >
+                View all <i class="fa-solid fa-arrow-right"></i>
+              </h3>
+            </div>
+          </div>
+          <div class="image md:w-[40%]">
+            <img class="w-full" src="./imgs/collectionImg.png" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
