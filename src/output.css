@@ -252,9 +252,6 @@
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
-  .mb-0 {
-    margin-bottom: calc(var(--spacing) * 0);
-  }
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
   }
@@ -321,9 +318,6 @@
   .w-\[30\%\] {
     width: 30%;
   }
-  .w-\[80\%\] {
-    width: 80%;
-  }
   .w-full {
     width: 100%;
   }
@@ -353,9 +347,6 @@
   }
   .items-center {
     align-items: center;
-  }
-  .items-end {
-    align-items: flex-end;
   }
   .items-start {
     align-items: flex-start;
@@ -413,10 +404,6 @@
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
-  }
-  .border-2 {
-    border-style: var(--tw-border-style);
-    border-width: 2px;
   }
   .border-\[2\.21px\] {
     border-style: var(--tw-border-style);
@@ -614,9 +601,6 @@
   }
   .pb-5 {
     padding-bottom: calc(var(--spacing) * 5);
-  }
-  .pb-10 {
-    padding-bottom: calc(var(--spacing) * 10);
   }
   .pb-45 {
     padding-bottom: calc(var(--spacing) * 45);
@@ -1024,49 +1008,9 @@
       display: flex;
     }
   }
-  .sm\:w-1\/4 {
-    @media (width >= 40rem) {
-      width: calc(1/4 * 100%);
-    }
-  }
-  .sm\:w-\[10\%\] {
-    @media (width >= 40rem) {
-      width: 10%;
-    }
-  }
-  .sm\:w-\[12\%\] {
-    @media (width >= 40rem) {
-      width: 12%;
-    }
-  }
-  .sm\:w-\[12\] {
-    @media (width >= 40rem) {
-      width: 12;
-    }
-  }
-  .sm\:w-\[15\%\] {
-    @media (width >= 40rem) {
-      width: 15%;
-    }
-  }
-  .sm\:w-\[16\%\] {
-    @media (width >= 40rem) {
-      width: 16%;
-    }
-  }
-  .sm\:w-\[125\%\] {
-    @media (width >= 40rem) {
-      width: 125%;
-    }
-  }
   .sm\:grid-cols-2 {
     @media (width >= 40rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-  }
-  .sm\:flex-row {
-    @media (width >= 40rem) {
-      flex-direction: row;
     }
   }
   .sm\:px-0 {
@@ -1136,16 +1080,6 @@
       margin-right: calc(var(--spacing) * 20);
     }
   }
-  .md\:mb-0 {
-    @media (width >= 48rem) {
-      margin-bottom: calc(var(--spacing) * 0);
-    }
-  }
-  .md\:mb-5 {
-    @media (width >= 48rem) {
-      margin-bottom: calc(var(--spacing) * 5);
-    }
-  }
   .md\:flex {
     @media (width >= 48rem) {
       display: flex;
@@ -1189,6 +1123,41 @@
   .md\:w-\[80\%\] {
     @media (width >= 48rem) {
       width: 80%;
+    }
+  }
+  .md\:cursor-alias {
+    @media (width >= 48rem) {
+      cursor: alias;
+    }
+  }
+  .md\:cursor-all-scroll {
+    @media (width >= 48rem) {
+      cursor: all-scroll;
+    }
+  }
+  .md\:cursor-auto {
+    @media (width >= 48rem) {
+      cursor: auto;
+    }
+  }
+  .md\:cursor-cell {
+    @media (width >= 48rem) {
+      cursor: cell;
+    }
+  }
+  .md\:cursor-col-resize {
+    @media (width >= 48rem) {
+      cursor: col-resize;
+    }
+  }
+  .md\:cursor-crosshair {
+    @media (width >= 48rem) {
+      cursor: crosshair;
+    }
+  }
+  .md\:cursor-default {
+    @media (width >= 48rem) {
+      cursor: default;
     }
   }
   .md\:grid-cols-3 {
